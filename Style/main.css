@@ -1,0 +1,119 @@
+*{
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Main*/
+
+.main{
+    border-radius: 100px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+/*Header*/
+
+.header{
+    border-radius: 70px;
+    display: flex;
+    padding: 5rem;
+    background-color: black;
+    background-image: url(../assets/img/studio.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    gap: .3rem;
+} 
+
+.search {
+    flex-grow: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: none;
+
+}
+.submit {
+   border-radius: 50px;
+   background-color: goldenrod;
+   cursor: pointer;
+   padding: 1rem;
+   font-size: 1.5rem;
+}
+
+/*content*/
+
+.content{
+    padding-top: 2rem;
+}
+.songs{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.song{
+    border-radius: 100px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.song:hover{
+    background-color: gray;
+}
+
+.show{
+    display: flex;
+    background-color: goldenrod;
+    border:none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+.dezzer img{
+    width: 50px;
+    border:none;
+    cursor: pointer;
+}
+
+.lyric{
+    font-size: 1.2rem;
+}
+
+.avatar{
+    border-radius: 50px;
+}
+
+.name{
+    display: flex;
+    flex-grow: 0.8;
+}
